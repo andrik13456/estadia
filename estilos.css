@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e5ecda;
+}
+
+header {
+    background-color: white;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+.inicio {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.inicio h1 {
+    color: #95eb1d;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 20px 40px;
+}
+
+.tarjeta {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.tarjeta img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+.tarjeta {
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: scale(1.09);
+}
+.titulodelcuento {
+    background-color: #f0f4f8;
+    color: #76eb1d;
+    font-weight:bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 1re;
+}
