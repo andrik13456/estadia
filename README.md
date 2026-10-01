@@ -1,2 +1,49 @@
-# estadia
-nyali me debes un fourloko
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuentos Infantiles</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logotipo">
+            </div>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="inicio">
+            <h1>Cuentos infantiles  </h1>
+            <p>Bienvenido a la sección de cuentos</p>
+        </section>
+
+        <section class="tarjetas">
+            <div class="tarjeta">
+                <img src="Dragon de burbujas.jpeg" alt="Cuento 1">
+                <h3 class="titulodelcuento">Dragon de burbujas</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="El valor de un lobo.jpeg" alt="Cuento 2">
+                <h3 class="titulodelcuento">El valor de un lobo</h3>
+            </div>
+             <div class="tarjeta">
+                <img src="La abejita aventurera.jpeg" alt="Cuento 3">
+                <h3 class="titulodelcuento">La abejita aventurera</h3>
+            </div>
+             <div class="tarjeta">
+                <img src="La capa magica.jpeg" alt="Cuento 4">
+                <h3 class="titulodelcuento">La capa magica</h3>
+            </div>
+             <div class="tarjeta">
+                <img src="Las luces de nubi.jpeg" alt="Cuento 5">
+                <h3 class="titulodelcuento">Las luces de nubi</h3>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
